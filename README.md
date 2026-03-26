@@ -1,17 +1,7 @@
-# controle_habitos
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Controle de Hábitos (Svenska Habits)Este é um miniprojeto desenvolvido em Flutter para a disciplina de Desenvolvimento para Dispositivos Móveis. O aplicativo permite gerenciar hábitos diários com uma interface inspirada nas cores da bandeira da Suécia. AlunoNome: João Vitor Prestes Garcia Curso: Análise e Desenvolvimento de SistemasProfessor: Gabriel Caixeta Silva Descrição do AplicativoO projeto é um gerenciador de hábitos focado em praticidade e interatividade. Ele permite que o usuário visualize uma lista de tarefas diárias, marque o progresso, adicione novos itens e exclua aqueles que não são mais necessários. Funcionalidades ImplementadasDe acordo com os requisitos obrigatórios da atividade:Carregamento Assíncrono: Simulação de busca de dados utilizando async/await e Future.delayed.Gerenciamento de Estado: Uso de StatefulWidget e setState para atualizações em tempo real.Navegação entre Telas: Implementação de três telas utilizando Navigator.push e passagem de parâmetros.Persistência em Memória: Uso de List para armazenar e manipular os hábitos (Adicionar e Excluir).Feedback Visual: Hábitos concluídos exibem texto riscado e cores diferenciadas.Interface Temática: Design personalizado com as cores Azul (#005293) e Amarelo (#FECB00). Telas do AplicativoAs capturas de tela abaixo demonstram o funcionamento do projeto:Tela Inicial (Lista)Adicionar HábitoDetalhes do Hábito(Nota: Lembre-se de salvar os prints na pasta prints do seu repositório para que eles apareçam corretamente no GitHub). 
+Fotos localizadas na pasta prints
+ Como executar o projetoPara rodar este aplicativo localmente:Tenha o SDK do Flutter instalado e configurado.Clone este repositório:Bashgit clone (https://github.com/JoaoGarcia07/ExerCaixeta/edit/main/README.md)
+Entre na pasta do projeto pelo terminal:Bashcd ExerCaixeta
+Baixe as dependências do projeto:Bashflutter pub get
+Execute o app no dispositivo ou navegador:Bashflutter run
+ Estrutura de PastasO projeto segue a organização sugerida:lib/models/: Contém o modelo de dados habito.dart.lib/screens/: Contém as telas home_screen.dart, habit_details_screen.dart e add_habit_screen.dart.lib/main.dart: Arquivo principal com as configurações de tema e inicialização do app.
